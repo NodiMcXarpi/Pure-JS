@@ -1,0 +1,26 @@
+  let num = 10;
+ 
+   var pos, msg
+   pos = 4
+ switch(pos){
+     case 1:
+         msg='Primeiro lugar, medalha de ouro'
+    break
+
+    case 2:
+        msg= 'Second place, silver for you bro'
+
+        break
+    
+    case 3:
+        msg= 'Bronzódia, meu cria'    
+
+        break
+
+        default:
+            msg = 'Nem atingiu o pódio, bro'
+
+
+ }
+
+ document.write(msg)
