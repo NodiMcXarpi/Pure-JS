@@ -23,3 +23,11 @@
 </body>
 
 </html>
+
+//same way as
+
+var cont
+   for(cont = 10; cont > 0 ; cont--){
+     document.write('Hello, my friend.<br>')
+
+   } 
