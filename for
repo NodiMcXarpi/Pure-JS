@@ -33,3 +33,15 @@ var cont
      document.write('Hello, my friend.<br>')
 
    } 
+   
+    var phrases = [];
+   phrases.push(0)
+   phrases.push(1)
+   phrases.push(2)
+   phrases.push(3)
+
+   for(cont =0; cont < 3; cont++){
+     document.write(phrases[cont] + '<br>')
+   }
+
+   //number 3 wont appear cuz we are counting the array position
