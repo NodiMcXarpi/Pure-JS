@@ -44,4 +44,19 @@ var cont
      document.write(phrases[cont] + '<br>')
    }
 
-   //number 3 wont appear cuz we are counting the array position
+   //number 3 wont appear cuz we are counting the array position/
+   
+   
+   //o mesmo método pode ser usado também com strings e usando o elemento prompt()
+   
+      var phrases = [];
+
+   for(cont =0; cont < 2; cont ++){
+     phrases.push(prompt('Digite algo, meu nobre', ''));
+   }
+   
+
+   for(cont =0; cont < 2; cont++){
+     document.write(phrases[cont] + '<br>')
+   }
+
