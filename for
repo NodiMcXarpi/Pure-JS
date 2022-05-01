@@ -17,6 +17,8 @@
      document.write('Hello, my friend.<br>')
 
    }   
+   
+   //A lógica acima aplicada basicamente é, cont = 0, (for) enquanto cont estiver menor que 10, adcione mais 1
    </script>
   
    
