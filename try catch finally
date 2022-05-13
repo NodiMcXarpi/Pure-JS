@@ -1,0 +1,30 @@
+  //Try, catch e finally são usados para rotinas que possivelmente podem ocorrer erros(não que necessáriamente vá ocorrer, porém, como lidar caso eles ocorrar.)
+  try{
+    document.writ('to galudão na novinha mané')
+  }catch(e){
+   document.write('Error: ' + e.message)
+  }
+
+  //é possível mostrar o erro parar o usuário utilizando o parâmetro passado para o catch
+  
+  
+  
+  //Digamos que, num não pode ser maior que 10, e o prompt dirá pro usuário digitar um num
+
+var num;
+try{
+  num= prompt('Digite um valor de 0 a 10.');
+  if(num>10){
+    throw new Error('Valor invalido') //throw pode ser usado para chamar/alertar um erro antes do catch,
+    
+  }
+  document.write('Valor: ' + num)
+}catch(e){
+  document.write(e.message)
+  //o método throw foi chamado pelo e.message e passado como parâmetro
+
+}
+
+finally{
+  document.write('<br> E o finally é chamado tanto no try, quanto no catch, independente do resultado.')
+}
