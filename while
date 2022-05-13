@@ -8,3 +8,9 @@ var num;
 
     } 
    
+   //o mesmo poderia ser escrito com o for, porém a colocação de elementos é diferente
+
+    for(num = 0; num<10; num++){
+      document.write(num + '<br>')
+    }
+   
