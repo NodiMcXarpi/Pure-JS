@@ -28,3 +28,23 @@ try{
 finally{
   document.write('<br> E o finally é chamado tanto no try, quanto no catch, independente do resultado.')
 }
+
+
+//E pelo fato de ser uma váriável não constante usada no erro, também é possível alterar o número para o número máximo, caso exceda o número máximo.
+
+var num;
+try{
+  num= prompt('Digite um valor de 0 a 10.');
+  if(num>10){
+    throw new Error('Valor invalido, o valor foi alternado para o máximo permitido') //throw pode ser usado para chamar/alertar um erro antes do catch,
+    
+  }
+ 
+}catch(e){
+  console.log(e.message)
+  num=10;
+  //o método throw foi chamado pelo e.message e passado como parâmetro
+
+}finally{
+  document.write('Valor: ' + num)
+}
