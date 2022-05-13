@@ -41,9 +41,9 @@ try{
   }
  
 }catch(e){
-  console.log(e.message)
+  console.log(e.message) //passando a mensagem do erro para o console
   num=10;
-  //o método throw foi chamado pelo e.message e passado como parâmetro
+  
 
 }finally{
   document.write('Valor: ' + num)
