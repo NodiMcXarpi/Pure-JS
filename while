@@ -1,0 +1,10 @@
+//diferente do loop for, no loop while basta declarar a variavel fora dos pârametros, condicionar o parâmetro e executar a funçao dentro dos {}
+
+var num;
+    num = 0;
+    while(num < 10){
+      document.write(num + '<br>');
+      num++;
+
+    } 
+   
