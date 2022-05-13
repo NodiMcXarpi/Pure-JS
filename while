@@ -53,3 +53,8 @@ var num;
       document.write('Tu sentando firme a tropa passa maaal' + '<br>')
     }
    
+   //também existe a variação do while, que executa os comendos pelo menos 1 vez, caso a condição imposta não seja aprovada
+   
+   do{
+    document.write('Ta tega no mec')
+  }while(num<10);
