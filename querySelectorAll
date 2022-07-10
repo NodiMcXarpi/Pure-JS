@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+  
+   
+  </head>
+  <body>
+    <p>Hoje eu quero</p>
+  <h1>Perereca</h1>
+  <p class="sapo">No morro do sapo</p>
+  <h2 class="raspadinha">Raspadinha</h2>
+  <h3 class="raspadinha">Limpinha</h3>
+  <h3 class="raspadinha">Limpinha</h3>
+  <h3 class="raspadinha">Limpinha</h3>
+  <h3 class="raspadinha">Limpinha</h3>
+  <h2 class="raspadinha">Raspadinha</h2>
+  <h1 class="sapo">VEM PRO MORRO DO SAPO</h1>
+
+  <script>
+    let raspadinha = document.querySelectorAll(".raspadinha") //para adcionar uma classe é importante botar ponto para apontar o nome da classe
+
+    for (let i=0;i<raspadinha.length; i++){
+        raspadinha[i].style.color='#f00'
+    }
+    //ex 2
+
+    let sapo = document.querySelectorAll(".sapo")
+    for(let i=0; i<sapo.length; i++){
+        sapo[i].style.color='#8b4513'
+        
+    }
+    
+    
+  </script>
+  </body>
+
+</html>
